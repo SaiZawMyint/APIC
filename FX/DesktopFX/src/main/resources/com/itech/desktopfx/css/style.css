@@ -1,8 +1,9 @@
-*{
-    -fx-font-size: 13;
+
+.login-title{
+    -fx-font-size: 20 !important;
 }
 .menu-bg{
-    -fx-background-color: #0F4C81;
+    -fx-background-color: #dbe7f0;
 }
 .app-bg{
     -fx-background-color: #f1f5f9;
@@ -16,6 +17,10 @@
     -fx-font-size: 15;
     -fx-background-radius: 7;
 }
+.input.error{
+    -fx-text-box-border: red ;
+    -fx-focus-color: red ;
+}
 .password{
     -fx-font-size: 13;
     -fx-padding: 7 7 7 7;
@@ -26,6 +31,9 @@
     -fx-font-size: 12;
     -fx-background-radius: 7;
     -fx-label-padding: 5 8 5 8;
+}
+.btn:disabled{
+    -fx-background-color: gray;
 }
 .btn:hover{
     -fx-background-color: #0000004c;
@@ -45,4 +53,22 @@
     -fx-pref-width: 35;
     -fx-pref-height: 35;
     -fx-background-radius: 35;
+}
+.modal{
+    -fx-background-color: #0000004c;
+}
+.color-blue{
+    -fx-text-fill: #0F4C81;
+}
+.link{
+    -fx-cursor: hand;
+    -fx-text-fill: #0F4C81;
+}
+.link:hover{
+    -fx-underline: true;
+}
+.loading-icon{
+    -fx-pref-width: 25;
+    -fx-pref-height: 25;
+    -fx-margin: 0 10 0 10;
 }

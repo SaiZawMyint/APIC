@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import com.itech.desktopfx.components.auth.LoginComponent?>
+<LoginComponent fx:id="form" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itech.desktopfx.controllers.auth.LoginController"/>
